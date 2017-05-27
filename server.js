@@ -3,7 +3,7 @@ const expressGraphQL =  require('express-graphql');
 
 const app = express();
 
-app.user('/graphql', expressGraphQL({
+app.use('/graphql', expressGraphQL({
   graphiql: true
 }));
 
