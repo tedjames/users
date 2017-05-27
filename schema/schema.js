@@ -20,7 +20,7 @@ const RootQuery = new GraphQLObjectType({
     user: {
       type: UserType,
       args: { id: { type: GraphQLString } },
-      // resolve function is users to actually obtain our data
+      // resolve function is used to actually obtain our data
       resolve(parentValue, args) {
 
       }
